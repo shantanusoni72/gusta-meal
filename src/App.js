@@ -1,9 +1,12 @@
+import Header from './Components/Header/header';
 import './App.css';
+import Hero from './Components/Hero/hero';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-red-200'>hello</h1>
+    <div className="w-screen">
+      <Header />
+      <Hero />
     </div>
   );
 }

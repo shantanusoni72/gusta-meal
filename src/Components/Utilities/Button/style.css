@@ -1,0 +1,17 @@
+.button a {
+    padding: 10px;
+    background-color: var(--lime-green);
+    color: black;
+    border-radius: 20px;
+    border: 2px solid var(--white);
+    text-decoration: none;
+    font-size: var(--h3);
+    font-weight: var(--fw);
+    transition: 0.4s;
+}
+
+.button a:hover {
+    background-color: var(--white);
+    color: black;
+    border: 2px solid var(--lime-green);
+}
